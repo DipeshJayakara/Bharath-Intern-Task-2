@@ -1,0 +1,97 @@
+.title_head{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card{
+    max-width: 500px;
+    max-height: 520px;
+    background: linear-gradient(135deg, #7246acf1, #499396e0);
+    color: white;
+    border-radius: 20px;
+    padding: 35px 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding-left: 2px;
+}
+.search{
+    width: 90%;
+    padding-top: 40px;
+    padding-left: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border-radius: 20px;
+    width: 60%;
+    height: 40px;
+    border: none;
+}
+.search button{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.weather img{
+    padding-top: 10px;
+    padding-left: 32%;
+    width: 150px;
+    height: 150px;
+}
+.weather h1{
+    font-size: 29px;
+}
+.temp, .city{
+    padding-left: 40%;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 90px;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+.col{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.col div p{
+    font-size: 14px;
+    font: large;
+}
+.col img{
+    width: 80px;
+    height: 100px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
