@@ -10,3 +10,6 @@ This repository contains Task 2 of the Bharath Internship, showcasing a web-base
 - HTML  
 - CSS  
 - JavaScript
+
+Open here:
+      https://dipeshjayakara.github.io/Bharath-Intern-Task-2/
